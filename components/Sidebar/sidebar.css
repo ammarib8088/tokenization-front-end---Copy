@@ -1,0 +1,106 @@
+.MuiPaper-root {
+  color: #9c9c9c;
+}
+.form-control-div{
+  width:95.5%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.css-11olkh1-MuiButtonBase-root-MuiButton-root:hover{
+  background-color:#1A4A60 ;
+}
+.css-yzo94n-MuiTypography-root {
+  padding: 10px;
+}
+
+.css-d16k7i-MuiContainer-root{
+  display: flex;
+}
+.css-46bh2p-MuiCardContent-root{
+  padding: 0px;
+}
+.css-ahj2mt-MuiTypography-root {
+font-size: 14px;
+}
+.css-1pnmrwp-MuiTypography-root{
+  margin-right:3px ;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .latest-market-div{
+    width: 100%;
+  }
+  .css-3aqtqk-MuiTypography-root{
+   max-width: 200px;
+  }
+  .css-12vwekr-MuiTypography-root {
+  max-width: 102px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .properties-cards-container {
+    justify-content: center;
+    display: grid;
+    justify-items: center;
+    text-align: left;
+  }
+
+  .properties-cards-container .MuiCard-root {
+    width: 100%; 
+    margin-right: 0; 
+  }
+  .properties-container{
+    justify-content: center;
+    display: grid;
+    justify-items: center;
+    text-align: left;
+  }
+  .form-control-div{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+  }
+  .css-d16k7i-MuiContainer-root {
+  margin-left: 10px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .css-d16k7i-MuiContainer-root{
+    width:auto;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .css-1vdcdlw-MuiContainer-root{
+    width:100%;
+  }    
+  }
+
+  @media only screen and (min-width: 600px) {
+    .css-14tcv5g-MuiContainer-root{
+      padding-left: 0px;
+      padding-left: 0px;
+    }
+    .css-14tlb7n-MuiContainer-root{
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .css-17zjodq-MuiContainer-root{
+      padding-left: 0px;
+      padding-left: 0px;
+    }
+    .css-69lkiq-MuiContainer-root{
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    }
+  
+  
